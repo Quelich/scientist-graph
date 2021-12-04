@@ -41,14 +41,9 @@ namespace scientist_graph_extended
                 var sr = new StreamReader(names_filepath);
                 foreach (var line in File.ReadLines(names_filepath))
                 {
-                    var line = sr.ReadLine().Split(' ');
-                    string s_name = string.Empty;
-                    string s_lastName = string.Empty;
-                    for(var i = 0; i<line.Length-1;i++)
-                    {
-                        s_name += line[i] + " ";
-                    }
-                    s_lastName = line[line.Length-1];
+
+                    var columns = line.Split(' ');
+                    (string s_name, string s_lastName) = GetScientistIdentity(columns);
                     var s_id = id_indexer;
                     id_indexer++;
                     var s = new Scientist(s_id, s_name, s_lastName);
