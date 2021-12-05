@@ -14,7 +14,7 @@ namespace scientist_graph_extended
 
         public override string ToString()
         {
-            return $"Edge: {Source.Data}     -> {Destination.Data}, Weight:{Weight}";
+            return $"Edge: {Source.Data}     -> {Destination.Data}, Publications:{Weight}";
         }
     }
 }
