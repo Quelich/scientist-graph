@@ -14,5 +14,26 @@ Represents the connection between a single scientist and another scientist.
 ## `Node`
 Represents a scientist with certain properties.
 # Results
+Note: this result only shows a small part of the output.
+- Edge: #1:Pedro :Domingos     -> #2:Daniel S. :Weld, Weight:1
+- Edge: #1:Pedro :Domingos     -> #3:Brigham :Anderson, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #1:Pedro :Domingos, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #3:Brigham :Anderson, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #40:Jia-Yu :Pan, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #193:Peter :Antal, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #324:Patrick :Wendel, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #325:Igor V. :Cadez, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #326:Scott :Gaffney, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #327:Matt :Cutler, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #503:D. :Gershkovich, Weight:3
+- Edge: #2:Daniel S. :Weld     -> #504:Ehud :Gudes, Weight:2
+- Edge: #2:Daniel S. :Weld     -> #625:Kamal :Nigam, Weight:1
+- Edge: #2:Daniel S. :Weld     -> #778:Marcel :Holsheimer, Weight:1
+- Edge: #3:Brigham :Anderson   -> #1:Pedro :Domingos, Weight:1
+- Edge: #3:Brigham :Anderson   -> #2:Daniel S. :Weld, Weight:1
+- Edge: #3:Brigham :Anderson   -> #2124:Thore :Graepel, Weight:1
+- Edge: #3:Brigham :Anderson   -> #2125:Ralf :Herbrich, Weight:1
+- Edge: #4:Andrew W. :Moore    -> #5:Andrew :Connolly, Weight:1
+- Edge: #4:Andrew W. :Moore    -> #6:Robert :Nichol, Weight:1
 # Conclusion
 # What I learned
