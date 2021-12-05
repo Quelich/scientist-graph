@@ -6,7 +6,7 @@ This project claims that a network between scientists worked together can be imp
 There is two type of data: Names.txt and Networks.txt
 - Names.txt file maps every scientist in line separated into two distinct columns. Each column respectively represents the properties "Name" and "Last Name" of a scientist.
 - Networks.txt file maps every single connection between given scientist IDs and the connection's weight, the number of publications, into three columns. The first column represents the source node. The second column represents the destination vertex to which the source vertex will be connected. The third column represents the weight between nodes.
-# Mechanisms
+# Components
 ## `Graph`
 Represents the whole network, a massive collection of the edges.
 ## `Edge`
