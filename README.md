@@ -1,7 +1,7 @@
 # scientist-graph
 A graph implementation to set up a network between scientists worked together.
 # Proposal
-This project claims that a network between scientists worked together can be implemented by using Graph Theory, a weigted graph at its core. Therefore, it will be assumed that the relation and its value, the number of papers published, between scientist are considered to render a meaningful structure. Thus, the project will output the connection details between scientists.
+This project claims that a network between scientists worked together can be implemented by using Graph Theory. Therefore, it will be assumed that the relation and its value, the number of papers published, between scientist are considered to render a meaningful structure. Thus, the project will output the connection details between scientists.
 # Data
 There is two type of data: Names.txt and Networks.txt
 - Names.txt file maps every scientist in line separated into two distinct columns. Each column respectively represents the properties "Name" and "Last Name" of a scientist.
