@@ -5,14 +5,14 @@ This project claims that a network between scientists worked together can be imp
 # Data
 There is two type of data: Names.txt and Networks.txt
 - Names.txt file maps every scientist in line separated into two distinct columns. Each column respectively represents the properties "Name" and "Last Name" of a scientist.
-- Networks.txt file maps every single connection between given scientist IDs and the connection's weight, the number of publications, into three columns. The first column represents the source node. The second column represents the destination node to which the source node will be connected. The third column represents the weight between nodes.
+- Networks.txt file maps every single connection between given scientist IDs and the connection's weight, the number of publications, into three columns. The first column represents the source node. The second column represents the destination vertex to which the source vertex will be connected. The third column represents the weight between nodes.
 # Mechanisms
 ## `Graph`
 Represents the whole network, a massive collection of the edges.
 ## `Edge`
 Represents the connection between a single scientist and another scientist.
 ## `Node`
-Represents a scientist with certain properties.
+Represents a scientist with certain properties to describe a vertex.
 # Results
 Note: this result only shows a small part of the output. See [output.txt](https://github.com/Quelich/scientist-graph/blob/master/scientist-graph-extended/output.txt)
 - Edge: #1:Pedro :Domingos     -> #2:Daniel S. :Weld, Publications:1
@@ -36,6 +36,7 @@ Note: this result only shows a small part of the output. See [output.txt](https:
 - Edge: #4:Andrew W. :Moore    -> #5:Andrew :Connolly, Publications:1
 - Edge: #4:Andrew W. :Moore    -> #6:Robert :Nichol, Publications:1
 # Conclusion
+- Graph theory can be utilized to describe a network where the connection between nodes are enumerated and assigned weights
 # What I learned
 - How to implement Graph Theory for a real world sample
 - C# infrastructure to handle IO streams
