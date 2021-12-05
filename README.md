@@ -14,7 +14,7 @@ Represents the connection between a single scientist and another scientist.
 ## `Node`
 Represents a scientist with certain properties to describe a vertex.
 # Results
-Note: this result only shows a small part of the output. See [output.txt](https://github.com/Quelich/scientist-graph/blob/master/scientist-graph-extended/output.txt)
+Note: this result only shows a small part of the output. See [output.txt](https://github.com/Quelich/scientist-graph/blob/master/scientist-graph-extended/output.txt) for more of it.
 - Edge: #1:Pedro :Domingos     -> #2:Daniel S. :Weld, Publications:1
 - Edge: #1:Pedro :Domingos     -> #3:Brigham :Anderson, Publications:1
 - Edge: #2:Daniel S. :Weld     -> #1:Pedro :Domingos, Publications:1
