@@ -14,6 +14,7 @@ namespace scientist_graph_extended
 
         private static Scientist[] _scientists = new Scientist[162932];
         private static int _networkFileCount = 1;
+        private static int _namesFileCount = 4000;
         private static string _relativePath = "D:\\2GitRepos\\scientist-graph-extended\\scientist-graph-extended";
         public static void Main(string[] args)
         {
@@ -41,7 +42,7 @@ namespace scientist_graph_extended
                 var sr = new StreamReader(names_filepath);
                 foreach (var line in File.ReadLines(names_filepath))
                 {
-
+                    if (id_indexer > _namesFileCount) break;
                     var columns = line.Split(' ');
                     (string s_name, string s_lastName) = GetScientistIdentity(columns);
                     var s_id = id_indexer;
@@ -100,7 +101,7 @@ namespace scientist_graph_extended
         }
         public static void WriteOutputFile(List<Edge<Scientist>> l)
         {
-            using (StreamWriter outputFile = new("output.txt"))
+            using (StreamWriter outputFile = new(_relativePath + "\\output.txt"))
             {
                 foreach (var edge in l)
                 {
