@@ -14,7 +14,7 @@ Represents the connection between a single scientist and another scientist.
 ## `Node`
 Represents a scientist with certain properties.
 # Results
-Note: this result only shows a small part of the output.
+Note: this result only shows a small part of the output. See [output.txt](https://github.com/Quelich/scientist-graph/blob/master/scientist-graph-extended/output.txt)
 - Edge: #1:Pedro :Domingos     -> #2:Daniel S. :Weld, Publications:1
 - Edge: #1:Pedro :Domingos     -> #3:Brigham :Anderson, Publications:1
 - Edge: #2:Daniel S. :Weld     -> #1:Pedro :Domingos, Publications:1
@@ -37,3 +37,6 @@ Note: this result only shows a small part of the output.
 - Edge: #4:Andrew W. :Moore    -> #6:Robert :Nichol, Publications:1
 # Conclusion
 # What I learned
+- How to implement Graph Theory for a real world sample
+- C# infrastructure to handle IO streams
+- Manipulate raw data to extract meaningful patterns
