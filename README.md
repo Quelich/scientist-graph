@@ -39,5 +39,4 @@ Note: this result only shows a small part of the output. See [output.txt](https:
 - Graph theory can be utilized to describe a network where the connection between nodes are enumerated and assigned weights.
 # What I learned
 - How to implement Graph Theory for a real world sample
-- How to use C# to handle IO streams
 - Manipulate raw data to extract meaningful patterns
