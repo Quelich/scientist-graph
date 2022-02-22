@@ -36,7 +36,7 @@ Note: this result only shows a small part of the output. See [output.txt](https:
 - Edge: #4:Andrew W. :Moore    -> #5:Andrew :Connolly, Publications:1
 - Edge: #4:Andrew W. :Moore    -> #6:Robert :Nichol, Publications:1
 # Conclusion
-- Graph theory can be utilized to describe a network where the connection between nodes are enumerated and assigned weights.
+- Graph theory can be utilized to describe a network where the connection between nodes are enumerated and assigned to weights.
 # What I learned
 - How to implement Graph Theory for a real world sample
 - Manipulate raw data to extract meaningful patterns
