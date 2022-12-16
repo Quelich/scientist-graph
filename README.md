@@ -1,11 +1,11 @@
 # scientist-graph
-A graph implementation to set up a network between scientists worked together.
+A graph implementation to demonstrate the network between scientists working together.
 # Proposal
-This project claims that a network between scientists worked together can be described by Graph Theory. Therefore, it will be assumed that the relation and its value, the number of papers published, between scientist are considered to render a meaningful structure. Thus, the project will output the connection details between scientists.
+This project suggests an algorithm implementing the Graph theory for correlating a network among scientists working together. Therefore,  the number of papers published by scientists working together and will be considered valuable information. Thus, the project outputs the connection details between scientists.
 # Data
-There is two type of data: Names.txt and Networks.txt
-- Names.txt file maps every scientist in line separated into two distinct columns. Each column respectively represents the properties "Name" and "Last Name" of a scientist.
-- Networks.txt file maps every single connection between given scientist IDs and the connection's weight, the number of publications, into three columns. The first column represents the source node. The second column represents the destination vertex to which the source vertex will be connected. The third column represents the weight between nodes.
+There are two types of data: Names.txt and Networks.txt
+- Names.txt file maps every scientist in the line separated into two distinct columns. Each column respectively represents the properties "Name" and "Last Name" of a scientist.
+- Networks.txt file maps every connection between given scientist IDs and the connection's weight, the number of publications into three columns. The first column represents the source node. The second column represents the destination node which forms a vertex to which the source vertex will be connected. The third column represents the weight between nodes.
 # Components
 ## `Graph`
 Represents the whole network, a massive collection of the edges.
@@ -36,7 +36,7 @@ Note: this result only shows a small part of the output. See [output.txt](https:
 - Edge: #4:Andrew W. :Moore    -> #5:Andrew :Connolly, Publications:1
 - Edge: #4:Andrew W. :Moore    -> #6:Robert :Nichol, Publications:1
 # Conclusion
-- Graph theory can be utilized to describe a network where the connection between nodes are enumerated and assigned to weights.
+- Graph theory is favourable to describe a network where the connection between nodes are enumerated and assigned to weights.
 # What I learned
-- How to implement Graph Theory for a real world sample
-- Manipulate raw data to extract meaningful patterns
+- Implement Graph Theory for a real world data.
+- Data manipulation in C#
